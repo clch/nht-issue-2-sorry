@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body, p, img {
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir, 'Lato', sans-serif;
+}
+
+.presents-text {
+  margin-top: 70px;
+}
+
+.title-wrapper {
+  text-align: center;
+}
+
+.title-logo {
+  width: 100%;
+  height: auto;
+}
+
+.header-text p {
+  margin: 10px;
+}
+
+.section-header {
+  margin: 30px 0px 20px 0px;
+}
+
+.section-header-writing {
+  width: 300px;
+  height: 100px;
+}
+
+.stories, .stories-col4 {
+  text-align: center;
+}
+
+.story-col4-image-wrapper .play-button, .story-image-wrapper .play-button {
+  display: none;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.story-image-wrapper .play-button {
+  width: 200px;
+  height: 200px;
+}
+
+.story-col4-image-wrapper:hover .play-button, .story-image-wrapper:hover .play-button {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.story-col4-images, .stories-col4 .play-button {
+  width: 280px;
+  height: 280px;
+}
+
+.story-audio {
+  width: 200px;
+}
+
+.story-images, .stories .play-button {
+  width: 230px;
+  height: 230px;
+}
+
+.stories-col4 {
+  padding: 0px 20px;
+}
+
+
+.stories {
+  padding: 0px 10px;
+}
+
+.story-title {
+  text-align: left;
+  font-weight: 600;
+}
+
+.story-author {
+  text-align: left;
+}
+
+.story-description {
+  text-align: left;
+}
+
+
+/* footer */
+footer {
+  margin-top: 100px;
+  padding: 100px 10px 50px 10px;
+  background-color: #ff8935;
+  color: #fff387;
+}
+
+.footer-text {
+  padding-right: 100px;
+}
+
+#footer-nht {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#footer-issue {
+  margin-bottom: 50px;
+}
+
+#footer-logo {
+  width: 300px;
+  height: 300px;
+}
+
+.footer-roles {
+  margin: 20px 0px 5px 0px;
+}
+
+#footer-email {
+  margin-bottom: 30px;
+}
+
+/* audio */
+
+#player {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.audiojs {
+  width: 100%;
+  display: none;
+}
+
+.audiojs .play, .audiojs .pause {
+  margin-left: -5px;
+}
+
+.audiojs .loaded {
+}
+
+.audiojs .scrubber {
+  width: calc(100% - 175px)
+}
+
+.audiojs .time em, .audiojs .time {
+}
